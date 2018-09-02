@@ -1,0 +1,16 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+//http://getbootstrap.com/docs/4.1/getting-started/theming/
+@import "../node_modules/bootstrap/scss/bootstrap";
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+//Colors
+$black:#000;
+$salmon:#e65959;
+
+@import "navbar";
+@import "global";
+@import "banner";
+@import "posts";
+@import "footer"
